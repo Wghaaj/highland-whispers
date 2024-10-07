@@ -1,1 +1,104 @@
 @use 'variables' as *;
+
+.small-container {
+    max-width: $small-container-width;
+}
+
+.comfortaa {
+    font-family: "Comfortaa";
+}
+
+main {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    padding: 0 $common-margin;
+
+
+    @media screen and (max-width:680px) {
+        font-size: 14px;
+    }
+
+    @media screen and (max-width:1360px) {
+        padding: 0 calc($common-margin * 2);
+    }
+
+    .gameName {
+        font-family: "gameFont";
+        margin-top: $common-margin;
+
+        h1 {
+            color: $ligth-blue;
+        }
+
+        p {
+            color: $desert;
+        }
+    }
+
+    .mainText {
+        margin-top: $common-margin;
+
+        .first-p-description {
+            padding-bottom: $common-margin;
+        }
+    }
+
+    .bold {
+        font-weight: 700;
+    }
+
+    .features {
+        text-align: left;
+        margin-top: $common-margin;
+    }
+
+    .d-flex {
+        margin-top: $common-margin;
+        @media screen and (max-width:1050px) {
+            flex-direction: column;
+        }
+    }
+
+    .img {
+
+        img {
+            height: 20rem;
+            border-radius: 10px;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+            &.visible {
+                opacity: 1;
+                transform: translateY(0); 
+            }
+
+            @media screen and (max-width:680px) {
+                width: 16rem;
+                height: 18rem;
+            }
+        }
+    }
+
+    .character-details {
+        grid-area: b;
+        width: 100%;
+        padding-top: $common-margin;
+        margin-left: $common-margin;
+        line-height: 28px;
+        text-align: left;
+
+    }
+
+    .character-description {
+        grid-area: c;
+        padding-bottom: 50px;
+        margin-left: $common-margin;
+        line-height: 25px;
+        text-align: left;
+    }
+}

@@ -1,1 +1,91 @@
-/*# sourceMappingURL=main.css.map */
+.small-container {
+  max-width: 1360px;
+}
+
+.comfortaa {
+  font-family: "Comfortaa";
+}
+
+main {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  padding: 0 30px;
+}
+@media screen and (max-width: 680px) {
+  main {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  main {
+    padding: 0 60px;
+  }
+}
+main .gameName {
+  font-family: "gameFont";
+  margin-top: 30px;
+}
+main .gameName h1 {
+  color: #98b8cd;
+}
+main .gameName p {
+  color: #F2D0BD;
+}
+main .mainText {
+  margin-top: 30px;
+}
+main .mainText .first-p-description {
+  padding-bottom: 30px;
+}
+main .bold {
+  font-weight: 700;
+}
+main .features {
+  text-align: left;
+  margin-top: 30px;
+}
+main .d-flex {
+  margin-top: 30px;
+}
+@media screen and (max-width: 1050px) {
+  main .d-flex {
+    flex-direction: column;
+  }
+}
+main .img img {
+  height: 20rem;
+  border-radius: 10px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+main .img img.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media screen and (max-width: 680px) {
+  main .img img {
+    width: 16rem;
+    height: 18rem;
+  }
+}
+main .character-details {
+  grid-area: b;
+  width: 100%;
+  padding-top: 30px;
+  margin-left: 30px;
+  line-height: 28px;
+  text-align: left;
+}
+main .character-description {
+  grid-area: c;
+  padding-bottom: 50px;
+  margin-left: 30px;
+  line-height: 25px;
+  text-align: left;
+}/*# sourceMappingURL=main.css.map */
