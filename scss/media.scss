@@ -6,6 +6,15 @@ main {
     color: white;
     font-weight: 300;
     padding: $common-margin $common-margin;
+    margin-top: $common-margin;
+
+    @media screen and (max-width:680px) {
+        font-size: 14px;
+    }
+
+    @media screen and (max-width:1360px) {
+        padding: 0 calc($common-margin * 2);
+    }
 
     .gameName {
         font-family: "gameFont";

@@ -4,6 +4,17 @@ main {
   color: white;
   font-weight: 300;
   padding: 30px 30px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 680px) {
+  main {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  main {
+    padding: 0 60px;
+  }
 }
 main .gameName {
   font-family: "gameFont";

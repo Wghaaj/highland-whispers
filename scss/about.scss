@@ -1,0 +1,80 @@
+@use 'variables' as *;
+
+.comfortaa {
+    font-family: "Comfortaa";
+}
+
+main {
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    padding: 0 $common-margin;
+    text-align: center;
+    margin-top: $common-margin;
+
+    @media screen and (max-width:680px) {
+        font-size: 14px;
+    }
+
+    @media screen and (max-width:1360px) {
+        padding: 0 calc($common-margin * 2);
+    }
+
+    .gameName {
+        font-family: "gameFont";
+
+        h1 {
+            color: $ligth-blue;
+        }
+
+        p {
+            color: $desert;
+        }
+    }
+
+    .d-flex {
+        margin-top: $common-margin;
+
+        @media screen and (max-width: 1160px) {
+            flex-direction: column;
+        }
+    }
+
+    img {
+        height: 30rem;
+
+        @media screen and (max-width:680px) {
+            height: 25rem;
+        }
+    }
+
+    .me-description {
+        text-align: left;
+        margin-left: $common-margin;
+        max-width: $small-container-width;
+        line-height: 25px;
+
+        @media screen and (max-width: 1160px) {
+            margin-left: 0;
+            margin-top: $common-margin;
+        }
+    }
+
+    article {
+        margin-top: $common-margin;
+
+        @media screen and (max-width: 1160px) {
+            margin-top: calc($common-margin / 2);
+        }
+    }
+
+    .secondParagraph {
+        padding-top: $common-margin;
+
+        @media screen and (max-width: 1160px) {
+            padding-top: calc($common-margin / 2);
+        }
+    }
+
+    
+}
