@@ -27,7 +27,7 @@ main .gallery-grid {
 }
 @media screen and (max-width: 680px) {
   main .gallery-grid {
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
   }
 }
 main img {
