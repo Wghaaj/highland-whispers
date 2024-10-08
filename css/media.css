@@ -1,1 +1,36 @@
-/*# sourceMappingURL=media.css.map */
+main {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  padding: 30px 30px;
+}
+main .gameName {
+  font-family: "gameFont";
+}
+main .gameName h1 {
+  color: #98b8cd;
+}
+main .gameName p {
+  color: #F2D0BD;
+}
+main .gallery-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 1200px) {
+  main .gallery-grid {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media screen and (max-width: 680px) {
+  main .gallery-grid {
+    grid-template-columns: auto auto;
+  }
+}
+main img {
+  width: 20rem;
+  height: 20rem;
+}/*# sourceMappingURL=media.css.map */
