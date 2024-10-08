@@ -62,7 +62,7 @@ main .img img {
   border-radius: 10px;
   opacity: 0;
   transform: translateY(50px);
-  transition: opacity 1s ease-out, transform 1s ease-out;
+  transition: opacity 4s ease-out, transform 2s ease-out;
 }
 main .img img.visible {
   opacity: 1;
@@ -88,4 +88,20 @@ main .character-description {
   margin-left: 30px;
   line-height: 25px;
   text-align: left;
+}
+main .buyBtnBottom {
+  background-color: #A0889D;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  display: none;
+}
+@media screen and (max-width: 680px) {
+  main .buyBtnBottom {
+    display: block;
+  }
+}
+main .buyBtnBottom a {
+  color: unset;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

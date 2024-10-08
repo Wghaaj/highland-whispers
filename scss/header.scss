@@ -87,7 +87,7 @@ body {
 header {
     width: 100%; 
     background-color: $bg-gray;
-    height: 6rem;
+    height: 6rem !important;
     padding: calc($common-margin / 2) $common-margin;
     box-sizing: border-box;
     position: relative;
@@ -95,6 +95,8 @@ header {
 
     a {
         margin: 0;
+        text-decoration: none;
+        color: unset;
     }
 
     .d-flex {

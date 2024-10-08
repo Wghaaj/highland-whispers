@@ -1,1 +1,55 @@
 @use 'variables' as *;
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
+    min-height: 100vh; 
+}
+
+footer {
+    width: 100%; 
+    background-color: $bg-gray;
+    height: 8rem;
+    margin-top: $common-margin;
+    padding: calc($common-margin / 2) $common-margin;
+    bottom: 0;
+
+    @media screen and (max-width: 680px) {
+        height: max-content;
+        padding: $common-margin;
+    }
+
+    .d-flex {
+        @media screen and (max-width:680px) {
+            flex-direction: column;
+        }
+    }
+
+
+    a {
+        text-decoration-color: black;
+        color: unset;
+        margin: 0;
+    }
+
+    .contact {
+        margin: 0;
+    }
+
+    .gameLogo-footer {
+        height: 100px;
+    }
+
+    .img-container {
+        margin: 0;
+
+        @media screen and (max-width:680px) {
+            margin-top: $common-margin;
+
+        }
+    }
+}
