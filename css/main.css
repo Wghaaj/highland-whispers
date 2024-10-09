@@ -104,4 +104,9 @@ main .buyBtnBottom {
 main .buyBtnBottom a {
   color: unset;
   text-decoration: none;
-}/*# sourceMappingURL=main.css.map */
+}
+
+main .buyBtnBottom {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */
