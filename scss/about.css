@@ -1,0 +1,75 @@
+.comfortaa {
+  font-family: "Comfortaa";
+}
+
+main {
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+  padding: 0 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+@media screen and (max-width: 680px) {
+  main {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  main {
+    padding: 0 60px;
+  }
+}
+main .gameName {
+  font-family: "gameFont";
+}
+main .gameName h1 {
+  color: #98b8cd;
+}
+main .gameName p {
+  color: #F2D0BD;
+}
+main .d-flex {
+  margin-top: 30px;
+}
+@media screen and (max-width: 1160px) {
+  main .d-flex {
+    flex-direction: column;
+  }
+}
+main img {
+  height: 30rem;
+}
+@media screen and (max-width: 680px) {
+  main img {
+    height: 25rem;
+  }
+}
+main .me-description {
+  text-align: left;
+  margin-left: 30px;
+  max-width: 1360px;
+  line-height: 25px;
+}
+@media screen and (max-width: 1160px) {
+  main .me-description {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+}
+main article {
+  margin-top: 30px;
+}
+@media screen and (max-width: 1160px) {
+  main article {
+    margin-top: 15px;
+  }
+}
+main .secondParagraph {
+  padding-top: 30px;
+}
+@media screen and (max-width: 1160px) {
+  main .secondParagraph {
+    padding-top: 15px;
+  }
+}/*# sourceMappingURL=about.css.map */

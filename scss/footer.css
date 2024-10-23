@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+footer {
+  width: 100%;
+  background-color: #D9D9D9;
+  height: 8rem;
+  margin-top: 30px;
+  padding: 15px 30px;
+  bottom: 0;
+}
+@media screen and (max-width: 680px) {
+  footer {
+    height: -moz-max-content;
+    height: max-content;
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 680px) {
+  footer .d-flex {
+    flex-direction: column;
+  }
+}
+footer a {
+  text-decoration-color: black;
+  color: unset;
+  margin: 0;
+}
+footer .contact {
+  margin: 0;
+}
+footer .gameLogo-footer {
+  height: 100px;
+}
+footer .img-container {
+  margin: 0;
+}
+@media screen and (max-width: 680px) {
+  footer .img-container {
+    margin-top: 30px;
+  }
+}/*# sourceMappingURL=footer.css.map */
