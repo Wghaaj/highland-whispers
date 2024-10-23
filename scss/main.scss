@@ -71,7 +71,7 @@ main {
             border-radius: 10px;
             opacity: 0;
             transform: translateY(50px);
-            transition: opacity 4s ease-out, transform 2s ease-out;
+            transition: opacity 2s ease-out, transform 2s ease-out;
             &.visible {
                 opacity: 1;
                 transform: translateY(0); 
