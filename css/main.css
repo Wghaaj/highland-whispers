@@ -59,10 +59,11 @@ main .d-flex {
 }
 main .img img {
   height: 20rem;
-  border-radius: 10px;
+  border-radius: 15px;
   opacity: 0;
-  transform: translateY(50px);
-  transition: opacity 4s ease-out, transform 2s ease-out;
+  transform: translateY(15px);
+  transition: opacity 3s ease-out, transform 2s ease-in;
+  box-shadow: 9px 8px 18px rgb(58, 58, 58);
 }
 main .img img.visible {
   opacity: 1;
@@ -104,9 +105,4 @@ main .buyBtnBottom {
 main .buyBtnBottom a {
   color: unset;
   text-decoration: none;
-}
-
-main .buyBtnBottom {
-  color: black;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
