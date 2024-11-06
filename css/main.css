@@ -105,4 +105,10 @@ main .buyBtnBottom {
 main .buyBtnBottom a {
   color: unset;
   text-decoration: none;
+}
+main .video-wrapper {
+  margin-top: 60px;
+}
+main .video-wrapper video {
+  border-radius: 15px;
 }/*# sourceMappingURL=main.css.map */

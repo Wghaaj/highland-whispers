@@ -120,4 +120,12 @@ main {
             text-decoration: none;
         }
     }
+
+    .video-wrapper {
+        margin-top: calc($common-margin * 2);
+
+        video {
+            border-radius: 15px;
+        }
+    }
 }
