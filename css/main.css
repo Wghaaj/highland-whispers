@@ -106,10 +106,33 @@ main .buyBtnBottom a {
   color: unset;
   text-decoration: none;
 }
+main .video-description {
+  padding-top: 30px;
+  text-align: left;
+}
+@media screen and (max-width: 1050px) {
+  main .video-description {
+    padding-top: 15px;
+  }
+}
+main .line {
+  height: 1px;
+  width: 100%;
+  margin-top: 10px;
+}
 main .video-wrapper {
-  margin-top: 60px;
+  padding-top: 30px;
+}
+@media screen and (max-width: 1050px) {
+  main .video-wrapper {
+    padding-top: 15px;
+  }
 }
 main .video-wrapper video {
   border-radius: 15px;
   max-width: 100%;
+}
+
+.w-100 {
+  width: 90% !important;
 }/*# sourceMappingURL=main.css.map */
