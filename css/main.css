@@ -111,4 +111,5 @@ main .video-wrapper {
 }
 main .video-wrapper video {
   border-radius: 15px;
+  max-width: 500px;
 }/*# sourceMappingURL=main.css.map */
