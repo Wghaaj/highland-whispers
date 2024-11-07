@@ -59,10 +59,11 @@ main .d-flex {
 }
 main .img img {
   height: 20rem;
-  border-radius: 10px;
+  border-radius: 15px;
   opacity: 0;
-  transform: translateY(50px);
-  transition: opacity 2s ease-out, transform 2s ease-out;
+  transform: translateY(15px);
+  transition: opacity 3s ease-out, transform 2s ease-in;
+  box-shadow: 9px 8px 18px rgb(58, 58, 58);
 }
 main .img img.visible {
   opacity: 1;
@@ -104,4 +105,38 @@ main .buyBtnBottom {
 main .buyBtnBottom a {
   color: unset;
   text-decoration: none;
+}
+main .video-description {
+  padding-top: 30px;
+  text-align: left;
+}
+@media screen and (max-width: 1050px) {
+  main .video-description {
+    padding-top: 15px;
+  }
+}
+main .line {
+  height: 1px;
+  width: 100%;
+  margin-top: 10px;
+}
+main .video-wrapper {
+  padding-top: 30px;
+}
+@media screen and (max-width: 1050px) {
+  main .video-wrapper {
+    padding-top: 15px;
+  }
+}
+main .video-wrapper video {
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+.w-100 {
+  width: 80% !important;
+}
+
+.height {
+  max-height: 600px;
 }/*# sourceMappingURL=main.css.map */
