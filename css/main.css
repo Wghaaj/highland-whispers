@@ -100,6 +100,7 @@ main .buyBtnBottom {
 @media screen and (max-width: 680px) {
   main .buyBtnBottom {
     display: block;
+    text-align: center;
   }
 }
 main .buyBtnBottom a {
@@ -134,5 +135,22 @@ main .video-wrapper video {
 }
 
 .w-100 {
-  width: 90% !important;
-}/*# sourceMappingURL=main.css.map */
+  width: 80% !important;
+}
+
+.height {
+  max-height: 550px;
+}
+
+.carousel-control-prev {
+  padding-right: 15px;
+}
+
+.carousel-control-next {
+  padding-left: 15px;
+}
+
+
+
+
+/*# sourceMappingURL=main.css.map */
